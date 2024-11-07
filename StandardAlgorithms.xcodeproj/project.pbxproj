@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0B43B32CDCF210004E444E /* SearchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B43B22CDCF210004E444E /* SearchingTest.swift */; };
 		EFBB4E5F2CDA252600D54851 /* StandardAlgorithmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB4E5E2CDA252600D54851 /* StandardAlgorithmsApp.swift */; };
 		EFBB4E612CDA252600D54851 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB4E602CDA252600D54851 /* ContentView.swift */; };
 		EFBB4E632CDA252800D54851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBB4E622CDA252800D54851 /* Assets.xcassets */; };
 		EFBB4E662CDA252800D54851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBB4E652CDA252800D54851 /* Preview Assets.xcassets */; };
-		EFBB4E702CDA252800D54851 /* StandardAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB4E6F2CDA252800D54851 /* StandardAlgorithmsTests.swift */; };
 		EFBB4E7A2CDA252900D54851 /* StandardAlgorithmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB4E792CDA252900D54851 /* StandardAlgorithmsUITests.swift */; };
 		EFBB4E7C2CDA252900D54851 /* StandardAlgorithmsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB4E7B2CDA252900D54851 /* StandardAlgorithmsUITestsLaunchTests.swift */; };
+		EFBB4E892CDA274D00D54851 /* SortingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB4E882CDA274D00D54851 /* SortingTest.swift */; };
+		EFBB4E8B2CDA287300D54851 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB4E8A2CDA287300D54851 /* Sorting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF0B43B22CDCF210004E444E /* SearchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingTest.swift; sourceTree = "<group>"; };
 		EFBB4E5B2CDA252600D54851 /* StandardAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandardAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBB4E5E2CDA252600D54851 /* StandardAlgorithmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardAlgorithmsApp.swift; sourceTree = "<group>"; };
 		EFBB4E602CDA252600D54851 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EFBB4E622CDA252800D54851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFBB4E652CDA252800D54851 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFBB4E6B2CDA252800D54851 /* StandardAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandardAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFBB4E6F2CDA252800D54851 /* StandardAlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardAlgorithmsTests.swift; sourceTree = "<group>"; };
 		EFBB4E752CDA252900D54851 /* StandardAlgorithmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandardAlgorithmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBB4E792CDA252900D54851 /* StandardAlgorithmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardAlgorithmsUITests.swift; sourceTree = "<group>"; };
 		EFBB4E7B2CDA252900D54851 /* StandardAlgorithmsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardAlgorithmsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFBB4E882CDA274D00D54851 /* SortingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTest.swift; sourceTree = "<group>"; };
+		EFBB4E8A2CDA287300D54851 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 				EFBB4E602CDA252600D54851 /* ContentView.swift */,
 				EFBB4E622CDA252800D54851 /* Assets.xcassets */,
 				EFBB4E642CDA252800D54851 /* Preview Content */,
+				EFBB4E8A2CDA287300D54851 /* Sorting.swift */,
 			);
 			path = StandardAlgorithms;
 			sourceTree = "<group>";
@@ -113,7 +118,8 @@
 		EFBB4E6E2CDA252800D54851 /* StandardAlgorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
-				EFBB4E6F2CDA252800D54851 /* StandardAlgorithmsTests.swift */,
+				EFBB4E882CDA274D00D54851 /* SortingTest.swift */,
+				EF0B43B22CDCF210004E444E /* SearchingTest.swift */,
 			);
 			path = StandardAlgorithmsTests;
 			sourceTree = "<group>";
@@ -198,6 +204,7 @@
 					};
 					EFBB4E6A2CDA252800D54851 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 						TestTargetID = EFBB4E5A2CDA252600D54851;
 					};
 					EFBB4E742CDA252900D54851 = {
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBB4E8B2CDA287300D54851 /* Sorting.swift in Sources */,
 				EFBB4E612CDA252600D54851 /* ContentView.swift in Sources */,
 				EFBB4E5F2CDA252600D54851 /* StandardAlgorithmsApp.swift in Sources */,
 			);
@@ -266,7 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFBB4E702CDA252800D54851 /* StandardAlgorithmsTests.swift in Sources */,
+				EF0B43B32CDCF210004E444E /* SearchingTest.swift in Sources */,
+				EFBB4E892CDA274D00D54851 /* SortingTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +484,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -483,6 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SamYuEJNR.StandardAlgorithmsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StandardAlgorithms.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StandardAlgorithms";
@@ -494,6 +505,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
