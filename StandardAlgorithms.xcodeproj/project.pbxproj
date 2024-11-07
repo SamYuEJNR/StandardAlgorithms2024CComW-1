@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF0B43B32CDCF210004E444E /* SearchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B43B22CDCF210004E444E /* SearchingTest.swift */; };
+		EF0B43B52CDCF40B004E444E /* Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0B43B42CDCF40B004E444E /* Searching.swift */; };
 		EFBB4E5F2CDA252600D54851 /* StandardAlgorithmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB4E5E2CDA252600D54851 /* StandardAlgorithmsApp.swift */; };
 		EFBB4E612CDA252600D54851 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB4E602CDA252600D54851 /* ContentView.swift */; };
 		EFBB4E632CDA252800D54851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBB4E622CDA252800D54851 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		EF0B43B22CDCF210004E444E /* SearchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingTest.swift; sourceTree = "<group>"; };
+		EF0B43B42CDCF40B004E444E /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
 		EFBB4E5B2CDA252600D54851 /* StandardAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandardAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBB4E5E2CDA252600D54851 /* StandardAlgorithmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardAlgorithmsApp.swift; sourceTree = "<group>"; };
 		EFBB4E602CDA252600D54851 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				EFBB4E622CDA252800D54851 /* Assets.xcassets */,
 				EFBB4E642CDA252800D54851 /* Preview Content */,
 				EFBB4E8A2CDA287300D54851 /* Sorting.swift */,
+				EF0B43B42CDCF40B004E444E /* Searching.swift */,
 			);
 			path = StandardAlgorithms;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			files = (
 				EFBB4E8B2CDA287300D54851 /* Sorting.swift in Sources */,
 				EFBB4E612CDA252600D54851 /* ContentView.swift in Sources */,
+				EF0B43B52CDCF40B004E444E /* Searching.swift in Sources */,
 				EFBB4E5F2CDA252600D54851 /* StandardAlgorithmsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

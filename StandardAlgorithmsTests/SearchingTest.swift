@@ -8,3 +8,10 @@
 import XCTest
 
 final class SearchingTest: XCTestCase {
+    
+    func testBinarySearchWithSortedIntegerArrayReturnsInteger() {
+        let searching = Searching()
+            XCTAssertEqual(result, testCase.expected)
+        }
+    }
+}
